@@ -1,5 +1,0 @@
-CART_HOST: cart.deena.fun
-USER_HOST: user.deena.fun
-RABBITMQ_HOST: rabbitmq.deena.fun
-RABBITMQ_USER: roboshop
-RABBITMQ_PASSWORD: roboshop123
