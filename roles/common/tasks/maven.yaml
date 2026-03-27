@@ -9,7 +9,7 @@
     - name: install pymysql and cryptograpy
       ansible.builtin.pip:
         name: "{{ item }}"
-        excutable: pip3.9
+        executable: pip3.9
       loop:
       - cryptograpy
       - pymysql
