@@ -9,8 +9,8 @@
     name: nodejs
     state: present
 
-# - name: installing dependencies
-#   community.general.npm:
-#     path: /app
+- name: installing dependencies
+  community.general.npm:
+    path: /app
 
     
