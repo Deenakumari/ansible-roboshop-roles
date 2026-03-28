@@ -15,7 +15,7 @@
         enabled: yes
 
     - name: create user for application
-      community.rabbitmq.rabbitmquser:
+      community.rabbitmq.rabbitmq_user:
         user: roboshop
         password: roboshop123
         permissions:
