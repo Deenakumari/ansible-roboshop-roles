@@ -5,7 +5,7 @@
 
     - name: systemctl daemon reload
       ansible.builtin.systemd:
-        daemon-reload: true
+        daemon-reload: yes
 
     - name: enabling and strat the service
       ansible.builtin.service:
